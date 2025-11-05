@@ -1,0 +1,2 @@
+# convertidor-unidades
+Un convertidor de unidades en Python que permite cambiar dinámicamente las unidades de conversión para longitud, peso y tiempo. Desarrollado con un enfoque en logica, la validación de entradas y la interacción con el usuario mediante una interfaz de línea de comandos clara. Diseñado para destacar el pensamiento estructurado, el código limpio y la flexibilidad para futuras expansiones a nuevos sistemas de medida.
