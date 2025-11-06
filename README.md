@@ -77,11 +77,11 @@ Un convertidor de unidades en Python que permite cambiar dinámicamente las unid
 
 # ⏱️ TIEMPO (Base: segundo "s")
 
- │ Símbolo │ Descripción  │
- |:------:|:-----    |
- │ s       │ Segundo      │
- │ min     │ Minuto       │
- │ h       │ Hora         │
+|  Simbolo |Descripcion   |
+|:------:|:-----    |
+| s | Segundo        |
+| min | Minuto        |
+| h | Hora      |
 
 
 
