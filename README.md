@@ -73,9 +73,10 @@ Un convertidor de unidades en Python que permite cambiar dinámicamente las unid
 | lb | Libra        |
 | oz | Onza      |
 
+---
 
 # ⏱️ TIEMPO (Base: segundo "s")
- 
+
  │ Símbolo │ Descripción  │
  |:------:|:-----    |
  │ s       │ Segundo      │
