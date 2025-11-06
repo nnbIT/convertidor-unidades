@@ -62,6 +62,21 @@ Un convertidor de unidades en Python que permite cambiar dinámicamente las unid
 │ in      │ Pulgada      │
 └─────────┴──────────────┘
 
+---
+
+## 🔍 Conversion Options
+|  Simbolo |Descripcion   |
+|:------:|:-----    |
+| m | Metro         |
+| km |   Kilómetro  |
+| cm | Centímetro   |
+| mm | Milímetro    |
+| mi | Milla        |
+| ft | Pie          |
+| in | Pulgada      |
+
+---
+
 # ⚖️ PESO (Base: kilogramo "kg")
 # ┌─────────┬──────────────┐
 # │ Símbolo │ Descripción  │
