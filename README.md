@@ -50,21 +50,7 @@ Un convertidor de unidades en Python que permite cambiar dinámicamente las unid
 # 📏 TABLAS DE UNIDADES
 
 # 1️⃣ LONGITUD (Base: metro "m")
-┌─────────┬──────────────┐
-│ Símbolo │ Descripción  │
-├─────────┼──────────────┤
-│ m       │ Metro        │
-│ km      │ Kilómetro    │
-│ cm      │ Centímetro   │
-│ mm      │ Milímetro    │
-│ mi      │ Milla        │
-│ ft      │ Pie          │
-│ in      │ Pulgada      │
-└─────────┴──────────────┘
 
----
-
-## 🔍 Conversion Options
 |  Simbolo |Descripcion   |
 |:------:|:-----    |
 | m | Metro         |
@@ -78,24 +64,24 @@ Un convertidor de unidades en Python que permite cambiar dinámicamente las unid
 ---
 
 # ⚖️ PESO (Base: kilogramo "kg")
-# ┌─────────┬──────────────┐
-# │ Símbolo │ Descripción  │
-# ├─────────┼──────────────┤
-# │ kg      │ Kilogramo    │
-# │ g       │ Gramo        │
-# │ mg      │ Miligramo    │
-# │ lb      │ Libra        │
-# │ oz      │ Onza         │
-# └─────────┴──────────────┘
+
+|  Simbolo |Descripcion   |
+|:------:|:-----    |
+| kg | Kilogramo   |
+| g | Gramo    |
+| mg | Miligramo        |
+| lb | Libra        |
+| oz | Onza      |
+
 
 # ⏱️ TIEMPO (Base: segundo "s")
-# ┌─────────┬──────────────┐
-# │ Símbolo │ Descripción  │
-# ├─────────┼──────────────┤
-# │ s       │ Segundo      │
-# │ min     │ Minuto       │
-# │ h       │ Hora         │
-# └─────────┴──────────────┘
+ 
+ │ Símbolo │ Descripción  │
+ |:------:|:-----    |
+ │ s       │ Segundo      │
+ │ min     │ Minuto       │
+ │ h       │ Hora         │
+
 
 
 # 🛠️ DESARROLLADO CON
