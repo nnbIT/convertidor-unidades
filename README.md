@@ -1,104 +1,101 @@
 # convertidor-unidades
 Un convertidor de unidades en Python que permite cambiar dinámicamente las unidades de conversión para longitud, peso y tiempo. Desarrollado con un enfoque en logica, la validación de entradas y la interacción con el usuario mediante una interfaz de línea de comandos clara. Diseñado para destacar el pensamiento estructurado, el código limpio y la flexibilidad para futuras expansiones a nuevos sistemas de medida.
 
+#              CONVERTIDOR DE UNIDADES - PYTHON
 
-# ╔══════════════════════════════════════════════════╗
-# ║              UNIT CONVERTER - PYTHON             ║
-# ╚══════════════════════════════════════════════════╝
+# 🎯 OBJETIVO PRINCIPAL
+#   - Convertir entre diferentes unidades de medida.
+#   - Tipos admitidos: Longitud, Peso y Tiempo.
 
-# 🎯 MAIN OBJECTIVE
-#   - Convert between different units of measurement.
-#   - Supported types: Length, Weight, and Time.
+# 🧩 OBJETIVOS SECUNDARIOS
+#   - Validar la entrada del usuario y manejar datos no válidos.
+#   - Permitir la modificación dinámica de unidades y tipos de conversión.
+#   - Asegurar una lógica limpia y una programación estructurada.
+#   - Brindar una experiencia CLI clara e interactiva.
 
-# 🧩 SECONDARY OBJECTIVES
-#   - Validate user input and handle invalid data.
-#   - Allow dynamic modification of units and conversion types.
-#   - Ensure clean logic and structured programming.
-#   - Provide a clear, interactive CLI experience.
+# 🧠 DIAGRAMA LÓGICO (versión comentada del flujo)
 
-# 🧠 LOGIC DIAGRAM (commented version of the flow)
-
-# START
+# INICIO
 #   │
 #   ▼
-# Display program introduction and conversion options
+# Mostrar la introducción del programa y las opciones de conversión
 #   │
 #   ▼
-# Ask the user for the conversion type:
-#       1) Length
-#       2) Weight
-#       3) Time
+# Pedir al usuario el tipo de conversión:
+#       1) Longitud
+#       2) Peso
+#       3) Tiempo
 #   │
 #   ▼
-# Show available units for the selected type
+# Mostrar las unidades disponibles para el tipo seleccionado
 #   │
 #   ▼
-# Ask for the origin and destination units
+# Pedir las unidades de origen y destino
 #   │
 #   ▼
-# Ask for the numeric value to convert
+# Pedir el valor numérico a convertir
 #   │
 #   ▼
-# Perform the conversion using the dictionary of units
+# Realizar la conversión usando el diccionario de unidades
 #   │
 #   ▼
-# Display the result in a clean, readable format
+# Mostrar el resultado en un formato limpio y legible
 #   │
 #   ▼
-# Ask if the user wants to modify any value (type, unit, or number)
-#   ├──► If yes, repeat the process with updated data
-#   └──► If no, display exit message and finish the program
+# Preguntar si el usuario desea modificar algún valor (tipo, unidad o número)
+#   ├──► Si sí, repetir el proceso con los datos actualizados
+#   └──► Si no, mostrar mensaje de salida y finalizar el programa
 
 
-# 📏 UNIT TABLES
+# 📏 TABLAS DE UNIDADES
 
-# 1️⃣ LENGTH (Base: meter "m")
+# 1️⃣ LONGITUD (Base: metro "m")
 # ┌─────────┬──────────────┐
-# │ Symbol  │ Description  │
+# │ Símbolo │ Descripción  │
 # ├─────────┼──────────────┤
-# │ m       │ Meter        │
-# │ km      │ Kilometer    │
-# │ cm      │ Centimeter   │
-# │ mm      │ Millimeter   │
-# │ mi      │ Mile         │
-# │ ft      │ Foot         │
-# │ in      │ Inch         │
+# │ m       │ Metro        │
+# │ km      │ Kilómetro    │
+# │ cm      │ Centímetro   │
+# │ mm      │ Milímetro    │
+# │ mi      │ Milla        │
+# │ ft      │ Pie          │
+# │ in      │ Pulgada      │
 # └─────────┴──────────────┘
 
-# ⚖️ WEIGHT (Base: kilogram "kg")
+# ⚖️ PESO (Base: kilogramo "kg")
 # ┌─────────┬──────────────┐
-# │ Symbol  │ Description  │
+# │ Símbolo │ Descripción  │
 # ├─────────┼──────────────┤
-# │ kg      │ Kilogram     │
-# │ g       │ Gram         │
-# │ mg      │ Milligram    │
-# │ lb      │ Pound        │
-# │ oz      │ Ounce        │
+# │ kg      │ Kilogramo    │
+# │ g       │ Gramo        │
+# │ mg      │ Miligramo    │
+# │ lb      │ Libra        │
+# │ oz      │ Onza         │
 # └─────────┴──────────────┘
 
-# ⏱️ TIME (Base: second "s")
+# ⏱️ TIEMPO (Base: segundo "s")
 # ┌─────────┬──────────────┐
-# │ Symbol  │ Description  │
+# │ Símbolo │ Descripción  │
 # ├─────────┼──────────────┤
-# │ s       │ Second       │
-# │ min     │ Minute       │
-# │ h       │ Hour         │
+# │ s       │ Segundo      │
+# │ min     │ Minuto       │
+# │ h       │ Hora         │
 # └─────────┴──────────────┘
 
 
-# 🛠️ BUILT WITH
+# 🛠️ DESARROLLADO CON
 #   - Python 3
-#   - Focus on logical programming and user interaction
-#   - Modular structure for easy scalability
+#   - Enfoque en programación lógica e interacción con el usuario
+#   - Estructura modular para facilitar la escalabilidad
 
-# ▶️ HOW TO RUN
-#   1. Open your terminal.
-#   2. Run the script:
+# ▶️ CÓMO EJECUTAR
+#   1. Abre tu terminal.
+#   2. Ejecuta el script:
 #          python unit_converter.py
-#   3. Follow the on-screen instructions.
+#   3. Sigue las instrucciones en pantalla.
 
-# 👋 ABOUT THE PROJECT
-#   Hi! I built this Unit Converter as part of my journey
-#   to improve my programming logic and user-focused design.
-#   The program combines Python fundamentals, validation,
-#   and interaction through a simple but powerful CLI.
+# 👋 SOBRE EL PROYECTO
+#   ¡Hola! Construí este Convertidor de Unidades como parte de mi proceso
+#   para mejorar mi lógica de programación y el diseño enfocado en el usuario.
+#   El programa combina fundamentos de Python, validación
+#   e interacción mediante una interfaz CLI simple pero poderosa.
